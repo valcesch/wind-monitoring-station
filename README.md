@@ -21,14 +21,16 @@ The data collected by the station are pushed to channel in [ThingSpeak](https://
 ![system](pictures/website_view.PNG#center)
 
 ## Comments
-The MKR1400 is a great platform, but not very well suited for low power IoT devices. After many researches, I could not bring the current below 6mA in deep-sleep mode.
+The MKR1400 is a great platform, but not very well suited for low power IoT devices. After many researches, I could not bring the current below 6mA in deep-sleep (wake-up with RTC).
 
 A few interesting discussions can be found here: 
 
 - https://forum.qoitech.com/t/power-consumption-on-arduino-mkr-gsm-1400/271
 - https://www.youtube.com/watch?v=YVho42UC43Q&t
 
-Let me know if you can bring this board below a few hundreed uA !
+And the library used to put the SAMD21 in a low power state: https://github.com/ee-quipment/ZeroPowerManager 
+
+Let me know if you can bring this board below a few hundred uA !
 
 The [Particle Boron](https://docs.particle.io/boron/) is a very good alternative that I tested in another project (it uses the same Ublox SARA-U201 chip than the MKR1400). The power consumption figures presented in the [datasheet](https://docs.particle.io/datasheets/boron/boron-datasheet/) are very well respected. Particle proposes as well a free data plan which is sufficient for the present project.
 
