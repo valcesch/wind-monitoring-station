@@ -14,13 +14,23 @@ The following components are used:
 - Nano-Power System Timer With Watchdog Function (TPL5010)
 - Taoglas 4G/LTE Flexible antenna (FXUB63.54.0150C)
 
-<img style="float: center;" src="pictures/system_view_1.PNG">
+![system_view](pictures/system_view_1.PNG#center)
 
 Integration on website:
 
 ![system](pictures/website_view.PNG#center)
 
 ## Comments
+The MKR1400 is a great platform, but not very well suited for low power IoT devices. After many researches, I could not bring the current below 6mA in deep-sleep mode. Note that running the same code on Seeeduino XIAO will result in a current consumption of only 6uA in deep-sleep... 
+
+A few interesting discussions can be found here: 
+
+- https://forum.qoitech.com/t/power-consumption-on-arduino-mkr-gsm-1400/271
+- https://www.youtube.com/watch?v=YVho42UC43Q&t
+
+Let me know if you can bring this board below a few hundreed uA !
+
+The [Particle Boron](https://docs.particle.io/boron/) is a very good alternative that I tested in another project (it uses the same Ublox SARA-U201 chip than the MKR1400). The power consumption figures presented in the [datasheet](https://docs.particle.io/datasheets/boron/boron-datasheet/) are very well respected. Particle proposes as well a free data plan which is sufficient for the present project.
 
 ## Disclaimer
 
