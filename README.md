@@ -14,7 +14,7 @@ The following components are used:
 - Nano-Power System Timer With Watchdog Function (TPL5010)
 - Taoglas 4G/LTE Flexible antenna (FXUB63.54.0150C)
 
-![system](pictures/system_view_1.png)
+![system_view](pictures/system_view_1.png)
 
 Integration on website:
 
