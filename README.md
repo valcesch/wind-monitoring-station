@@ -3,7 +3,7 @@
 ## Description
 Autonomous wind monitoring station based on Arduino MKR GSM 1400. All data are pushed on [ThingSpeak](https://thingspeak.com/)
 
-![installed](pictures/installed_view.png?raw=true) ![open](pictures/open_view.png?raw=true)
+![installed](pictures/installed_view.png?raw=true) ![open](pictures/open_view.PNG?raw=true)
 
 The following components are used: 
 
@@ -14,11 +14,11 @@ The following components are used:
 - Nano-Power System Timer With Watchdog Function (TPL5010)
 - Taoglas 4G/LTE Flexible antenna (FXUB63.54.0150C)
 
-![system_view](pictures/system_view_1.png?raw=true)
+![system_view](pictures/system_view_1.PNG?raw=true)
 
 Integration on website:
 
-![system](pictures/website_view.png?raw=true)
+![system](pictures/website_view.PNG?raw=true)
 
 ## Comments
 
