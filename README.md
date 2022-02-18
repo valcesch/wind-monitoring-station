@@ -1,7 +1,7 @@
 # Wind-monitoring-station
 
 ## Description
-Autonomous wind monitoring station based on Arduino MKR GSM 1400. All data are pushed on [ThingSpeak](https://thingspeak.com/)
+A fully autonomous wind monitoring station based on the Arduino MKR GSM 1400. The data collected by the station are  pushed to channel in [ThingSpeak](https://thingspeak.com/).
 
 ![installed](pictures/installed_view.png#center)
 
