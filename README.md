@@ -1,7 +1,7 @@
 # Wind-monitoring-station
 
 ## Description
-A fully autonomous wind monitoring station based on the Arduino MKR GSM 1400. The data collected by the station are  pushed to channel in [ThingSpeak](https://thingspeak.com/).
+A fully autonomous wind monitoring station based on the Arduino MKR GSM 1400.
 
 ![installed](pictures/installed_view.png#center)
 
@@ -16,12 +16,12 @@ The following components are used:
 
 ![system_view](pictures/system_view_1.PNG#center)
 
-Integration on website:
+The data collected by the station are pushed to channel in [ThingSpeak](https://thingspeak.com/) and displayed on a website:
 
 ![system](pictures/website_view.PNG#center)
 
 ## Comments
-The MKR1400 is a great platform, but not very well suited for low power IoT devices. After many researches, I could not bring the current below 6mA in deep-sleep mode. Note that running the same code on Seeeduino XIAO will result in a current consumption of only 6uA in deep-sleep... 
+The MKR1400 is a great platform, but not very well suited for low power IoT devices. After many researches, I could not bring the current below 6mA in deep-sleep mode.
 
 A few interesting discussions can be found here: 
 
