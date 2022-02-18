@@ -1,4 +1,4 @@
-# Wind-monitoring-station
+# Wind monitoring station
 
 ## Description
 A fully autonomous wind monitoring station based on the Arduino MKR GSM 1400.
@@ -7,6 +7,7 @@ A fully autonomous wind monitoring station based on the Arduino MKR GSM 1400.
 
 The following components are used: 
 
+- Cup Anemometer (reed switch, trig one interruption per turn)
 - Arduino MKR GSM 1400 (MKRGSM1400WANT)
 - DFRobot Solar Lipo Charger (DFR0264)
 - Solar panel 70x55mm (100mA, 0.5W)
