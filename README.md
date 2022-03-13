@@ -33,7 +33,7 @@ And the library used to put the SAMD21 in a low power state: https://github.com/
 
 Let me know if you can bring this board below a few hundred uA !
 
-The [Particle Boron](https://docs.particle.io/boron/) is a very good alternative that I tested in another project (it uses the same Ublox SARA-U201 chip than the MKR1400). The power consumption figures presented in the [datasheet](https://docs.particle.io/datasheets/boron/boron-datasheet/) are very well respected. Particle proposes as well a free data plan which is sufficient for the present project.
+The [Particle Boron](https://docs.particle.io/boron/) is a very good alternative that I tested in another project (it uses the same Ublox SARA-U201 chip than the MKR1400). The power consumption figures presented in the [datasheet](https://docs.particle.io/datasheets/boron/boron-datasheet/) are very well respected. Particle proposes as well a free data plan which suits well the requirement of the project.
 
 ## Disclaimer
 
